@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+    height: 100%;
+    overflow: hidden
+}
+
+.container {
+    border: 100px solid black;
+    width: 90%;
+    display: grid;
+    margin: 100px auto;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.container-login {
+    padding: 60px 50px;
+    background-color: #24252f;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-sign {
+    padding: 20px 0px;
+    background-color: #857dcc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    color: azure
+}
+
+p {
+
+    color: azure;
+}
+
+img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.inputContainer {
+    position: relative;
+    height: 20px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200%;
+    width: 100%;
+    border: 1px solid beige;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 0 30px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+.img-user{
+    margin-top: 7px;
+    margin-left: 7px;
+    
+}
+
+::placeholder {
+    color: aliceblue;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: 0px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #857dcc;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.submitBtn-register{
+display: block;
+margin-left: 200px;
+padding: 10px 20px;
+background-color:#857dcc ;
+color: beige;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 20px;
+
+}
+
+.submitBtn:hover  {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+}
+.submitBtn-register:hover{
+    background-color: #24252f;
+    transform: translateY(-2px);
+
+}
+.link{
+    text-decoration: underline;
+    color: #857dcc;
+    margin-left: 266px;
+    margin-top: -30px;
+
+}
+
+#text-sign-up-lorem{   
+    margin-left: 50px;
+  
+}
+
+#text-sign-up{
+    
+    margin-left: 220px;
+}
